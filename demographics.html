@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Training and Placement Cell - IIT Patna</title>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+		<link href="slick/slick.css" rel="stylesheet" type="text/css">
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.home-carousel').slick({
+					autoplay: true,
+					autoplaySpeed: 2000
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<div class="wrap">
+	<div class="grid-container">
+		<div class="grid-80">
+			<div class="grid-block">
+				<div class="index-intro-text">
+					<h1>Demographics (2016)</h1><br>
+					<script type="text/javascript">
+					  google.load("visualization", "1", {packages:["corechart"]});
+					  google.setOnLoadCallback(drawChart);
+					  function drawChart() {
+
+						var data = google.visualization.arrayToDataTable([
+						  ['Branch', 'No. of students'],
+						  ['CSE',     109],
+						  ['EE',      90],
+						  ['ME',  85],
+							['CE', 70],
+							['IT', 55]
+						]);
+
+						var options = {
+						  title: 'Btech Final Year Demographics'
+						};
+
+						var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+						chart.draw(data, options);
+					  }
+					</script>
+					<div id="piechart" style="float: left;width: 50%; height: 300px;"></div>
+					<script type="text/javascript">
+					  google.load("visualization", "1", {packages:["corechart"]});
+					  google.setOnLoadCallback(drawChart);
+					  function drawChart() {
+
+						var data = google.visualization.arrayToDataTable([
+						  ['Branch', 'No. of students'],
+						  ['CSE',    56 ],
+						  ['EE',      44],
+						  ['ME',  46],
+						  ['CE',  16],
+						  ['IT',  20]
+						]);
+
+						var options = {
+						  title: 'Btech Pre-Final Year Demographics'
+						};
+
+						var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+
+						chart.draw(data, options);
+					  }
+					</script>
+					<div id="piechart2" style="float: left;width: 50%; height: 300px;"></div>
+					<script type="text/javascript">
+					  google.load("visualization", "1", {packages:["corechart"]});
+					  google.setOnLoadCallback(drawChart);
+					  function drawChart() {
+
+						var data = google.visualization.arrayToDataTable([
+						  ['Branch', 'No. of students'],
+						  ['CSE',  40],
+						  ['CE',  11],
+						  ['ME',  7],
+						  ['EE',  9],
+                          ['IT',  19]  
+						]);
+
+						var options = {
+						  title: 'Mtech Final Year Demographics'
+						};
+
+						var chart = new google.visualization.PieChart(document.getElementById('piechart3'));
+
+						chart.draw(data, options);
+					  }
+					</script>
+					<div id="piechart3" style="float: left;width: 50%; height: 300px;"></div>
+					<script type="text/javascript">
+					  google.load("visualization", "1", {packages:["corechart"]});
+					  google.setOnLoadCallback(drawChart);
+					  function drawChart() {
+
+						var data = google.visualization.arrayToDataTable([
+							['Branch', 'No. of students'],
+						  ['CSE',  12],
+						  ['CE',  14],
+						  ['ME',  14],
+						  ['EE',  10],
+							['IT', 13]
+						]);
+
+						var options = {
+						  title: 'Mtech Pre-Final Year Demographics'
+						};
+
+						var chart = new google.visualization.PieChart(document.getElementById('piechart4'));
+
+						chart.draw(data, options);
+					  }
+					</script>
+					<div id="piechart4" style="float: left;width: 50%; height: 300px;"></div>
+				</div>
+			</div>
+		</div>
+    </div>
+	</div>
+</body>
+</html>
